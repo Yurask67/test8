@@ -3,33 +3,34 @@
 <!--   File    : test8.fsproj              -->
 <!--   Format  : TopoR Project file        -->
 <!--   Version : 2                         -->
-<!--   Program : TopoR Lite 7.0.18699      -->
+<!--   Program : TopoR 32 Layer 7.0.18707  -->
 <!--   Date    : Sunday, February 09, 2025 -->
-<!--   Time    : 20:55                     -->
+<!--   Time    : 15:14                     -->
 <!--***************************************-->
 
 <Project>
    <Version current="2"/>
-   <GUID>{F7C2E548-F70B-4A75-962F-5F3D37BED435}</GUID>
+   <GUID>{760A8D1D-1E84-40FD-B037-5CAAF47D6F25}</GUID>
    <Documents>
-      <Section name="PCB" isExpanded="false">
-         <File path=".\test8.fsx" isopened="1" dateChange="2025-02-08 20:52:51"/>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\test8.fsx" isopened="1" dateChange="2025-02-09 13:26:43"/>
       </Section>
-      <Section name="AutoRouting" isExpanded="false">
-         <File path=".\autoroute_250208183708\test8_1795-16s.fsb" isopened="0" dateChange="2025-02-08 18:37:52"/>
-         <File path=".\autoroute_250208191545\test8_1822-10s.fsb" isopened="0" dateChange="2025-02-08 20:20:21"/>
-         <File path=".\autoroute_250208183312\test8_1832-7s.fsb" isopened="0" dateChange="2025-02-08 18:33:37"/>
-         <File path=".\autoroute_250208190422\test8_1855-10s.fsb" isopened="0" dateChange="2025-02-08 19:04:57"/>
-         <File path=".\autoroute_250208191417\test8_1894-10s.fsb" isopened="0" dateChange="2025-02-08 19:14:37"/>
-         <File path=".\autoroute_250208190205\test8_1953-10s.fsb" isopened="0" dateChange="2025-02-08 19:02:39"/>
-         <File path=".\autoroute_250208191150\test8_2033-7s.fsb" isopened="0" dateChange="2025-02-08 19:13:10"/>
-         <File path=".\autoroute_250208185509\test8_3283-40s.fsb" isopened="0" dateChange="2025-02-08 18:55:31"/>
-         <File path=".\autoroute_250208184106\test8_3301-42s.fsb" isopened="0" dateChange="2025-02-08 18:43:33"/>
-         <File path=".\autoroute_250208185623\test8_3572-42s.fsb" isopened="0" dateChange="2025-02-08 18:57:47"/>
-         <File path=".\autoroute_250208185111\test8_4003-34s.fsb" isopened="0" dateChange="2025-02-08 18:51:25"/>
-         <File path=".\autoroute_250208184608\test8_4432-42s.fsb" isopened="0" dateChange="2025-02-08 18:47:02"/>
-         <File path=".\autoroute_250208190028\test8_4943-34s.fsb" isopened="0" dateChange="2025-02-08 19:00:46"/>
-         <File path=".\autoroute_250208184011\test8_5217-48s.fsb" isopened="0" dateChange="2025-02-08 18:40:22"/>
+      <Section name="AutoRouting" isExpanded="true">
+         <File path=".\autoroute_250209121651\test8_1892-10s.fsb" isopened="0" dateChange="2025-02-09 12:18:18"/>
+         <File path=".\autoroute_250209121322\test8_1975-7s.fsb" isopened="0" dateChange="2025-02-09 12:14:23"/>
+         <File path=".\autoroute_250209123820\test8_1986-15s.fsb" isopened="0" dateChange="2025-02-09 12:46:22"/>
+         <File path=".\autoroute_250209123820\test8_2005-14s.fsb" isopened="0" dateChange="2025-02-09 12:46:56"/>
+         <File path=".\autoroute_250209122629\test8_2016-13s.fsb" isopened="0" dateChange="2025-02-09 12:28:05"/>
+         <File path=".\autoroute_250209123820\test8_2020-14s.fsb" isopened="0" dateChange="2025-02-09 12:46:44"/>
+         <File path=".\autoroute_250209123704\test8_2035-18s.fsb" isopened="0" dateChange="2025-02-09 12:37:16"/>
+         <File path=".\autoroute_250209125959\test8_2061-14s.fsb" isopened="0" dateChange="2025-02-09 13:04:03"/>
+         <File path=".\autoroute_250209125707\test8_2089-15s.fsb" isopened="0" dateChange="2025-02-09 12:57:55"/>
+         <File path=".\autoroute_250209135626\test8_2267-13s.fsb" isopened="0" dateChange="2025-02-09 14:25:32"/>
       </Section>
    </Documents>
+   <Import>
+      <Specctra>
+         <Path name="C:\Users\admin\Documents\KiCad\test8\test8.dsn"/>
+      </Specctra>
+   </Import>
 </Project>
