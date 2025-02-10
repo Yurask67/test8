@@ -48,18 +48,13 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 1.0
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -117,8 +112,8 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.5,
-        "min_connection": 0.5,
-        "min_copper_edge_clearance": 0.5,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.025,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -128,7 +123,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.5,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -177,12 +172,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.5,
-        0.8,
-        1.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -209,12 +199,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -454,7 +439,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -468,6 +453,40 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "esp",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 1.5,
+        "via_drill": 0.7,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "kicad_default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.5,
+        "via_drill": 0.7,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -475,7 +494,308 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "kicad_default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-D2-Pad13)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-D3-Pad14)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-D5-Pad4)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "MISO_165"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "CLK_165"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-D0-Pad11)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-~{Q7}-Pad7)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "CS_165"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-D1-Pad12)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "Net-(U1-DS)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-D6-Pad5)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-D4-Pad3)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U1-D7-Pad6)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-D5-Pad4)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-~{Q7}-Pad7)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-DS-Pad10)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-D4-Pad3)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-D2-Pad13)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-D1-Pad12)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-D3-Pad14)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-D0-Pad11)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-D7-Pad6)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U2-D6-Pad5)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-RXD0{slash}IO3-Pad34)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-EN-Pad3)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO25-Pad10)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO33-Pad9)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO2-Pad24)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO35-Pad7)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-SHD{slash}SD2-Pad17)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-TXD0{slash}IO1-Pad35)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-SENSOR_VP-Pad4)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO27-Pad12)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO26-Pad11)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-SDI{slash}SD1-Pad22)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO12-Pad14)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO0-Pad25)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO17-Pad28)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-SDO{slash}SD0-Pad21)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO21-Pad33)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "Net-(U3-IO13)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO16-Pad27)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-SCS{slash}CMD-Pad19)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO32-Pad8)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO5-Pad29)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "Net-(U3-IO14)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO22-Pad36)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO34-Pad6)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-SCK{slash}CLK-Pad20)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO23-Pad37)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-IO4-Pad26)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "unconnected-(U3-SWP{slash}SD3-Pad18)"
+      },
+      {
+        "netclass": "esp",
+        "pattern": "Net-(U3-IO15)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U4-QH-Pad7)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U4-QF-Pad5)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "Net-(U4-QH')"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U4-QG-Pad6)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U4-QD-Pad3)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U4-QA-Pad15)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U4-QB-Pad1)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U4-QE-Pad4)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U4-QC-Pad2)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QG-Pad6)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QF-Pad5)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QA-Pad15)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QC-Pad2)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QH'-Pad9)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QE-Pad4)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QB-Pad1)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QH-Pad7)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "unconnected-(U5-QD-Pad3)"
+      },
+      {
+        "netclass": "kicad_default",
+        "pattern": "Unrouted"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -484,7 +804,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "test8.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
