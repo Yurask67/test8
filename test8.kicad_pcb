@@ -161,7 +161,7 @@
 		(uuid "01a76464-a729-477c-a773-9902b33c8bbb")
 		(at 100.8 65.4525 -90)
 		(property "Reference" "J3"
-			(at -1.27 -1.27 -270)
+			(at -1.27 -1.27 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -182,6 +182,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -246,7 +247,7 @@
 		(uuid "35abe41b-4490-467c-93ef-bcdabb25e17a")
 		(at 112.3 67.4525 180)
 		(property "Reference" "C4"
-			(at -1.27 1.27 -180)
+			(at -1.27 1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -259,7 +260,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -267,6 +268,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -352,6 +354,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -427,7 +430,7 @@
 		(uuid "7b035d6a-84f9-447e-aa50-e61331c4f522")
 		(at 101.3 98.9525 180)
 		(property "Reference" "J1"
-			(at -1.27 1.27 -180)
+			(at -1.27 1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -440,7 +443,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -448,6 +451,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -593,7 +597,7 @@
 		(uuid "9b6be10e-40ce-44a1-bee9-825ed84a1c87")
 		(at 184.3 77.9525 180)
 		(property "Reference" "J8"
-			(at -1.27 1.27 -180)
+			(at -1.27 1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -606,7 +610,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -614,6 +618,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -759,7 +764,7 @@
 		(uuid "a4feae11-711a-402f-a9d5-72b1b217923e")
 		(at 176.125 109.8275 180)
 		(property "Reference" "U5"
-			(at -1.27 1.27 -180)
+			(at -1.27 1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -772,7 +777,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -780,6 +785,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -985,7 +991,7 @@
 		(uuid "a83836ea-0c99-4c03-b000-f81ccf59ea4d")
 		(at 163.3 68.4525 -90)
 		(property "Reference" "J4"
-			(at -1.27 -1.27 -270)
+			(at -1.27 -1.27 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -998,7 +1004,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1006,6 +1012,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1081,7 +1088,7 @@
 		(uuid "cc3cefd0-7c4a-4167-beef-d7bb40eeaa99")
 		(at 184.8 99.4525 180)
 		(property "Reference" "J7"
-			(at -1.27 1.27 -180)
+			(at -1.27 1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1094,7 +1101,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1102,6 +1109,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1247,7 +1255,7 @@
 		(uuid "d3cca079-09a6-4343-8f03-22178b729555")
 		(at 101.6677 74.9525 180)
 		(property "Reference" "C2"
-			(at -1.27 1.27 -180)
+			(at -1.27 1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1260,7 +1268,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1268,6 +1276,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1332,7 +1341,7 @@
 		(uuid "e9d3008f-879c-4a79-a829-6e0de52a62f7")
 		(at 163.3 75.4525 -90)
 		(property "Reference" "J5"
-			(at -1.27 -1.27 -270)
+			(at -1.27 -1.27 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1345,7 +1354,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1353,6 +1362,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1428,7 +1438,7 @@
 		(uuid "ed8d4866-4c5e-4ac4-928a-d63e56db153f")
 		(at 101.8 119.4525 180)
 		(property "Reference" "J2"
-			(at -1.27 1.27 -180)
+			(at -1.27 1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1441,7 +1451,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1449,6 +1459,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1615,6 +1626,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1986,7 +1998,7 @@
 		(uuid "ffd88481-ddb0-4214-a539-dc1615f57260")
 		(at 176.125 83.8275 180)
 		(property "Reference" "U6"
-			(at -1.27 1.27 -180)
+			(at -1.27 1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1999,7 +2011,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2007,6 +2019,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2233,6 +2246,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2294,7 +2308,7 @@
 		(uuid "4fcb9236-14be-460a-9207-0e5499d64b52")
 		(at 110.8 81.4525 90)
 		(property "Reference" "U3"
-			(at 1.27 1.27 270)
+			(at 1.27 1.27 -90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -2307,7 +2321,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2315,6 +2329,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2413,6 +2428,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2495,6 +2511,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2689,6 +2706,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2883,6 +2901,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2965,6 +2984,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3047,6 +3067,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3167,7 +3188,7 @@
 		(start 171.375 111.1575)
 		(end 171.3574 111.1999)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -3237,7 +3258,7 @@
 		(start 172.4984 110.2356)
 		(end 172.315 110.2175)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -3477,7 +3498,7 @@
 		(start 171.375 85.1575)
 		(end 171.3574 85.1999)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -3497,7 +3518,7 @@
 		(start 173.1834 84.7978)
 		(end 173.0966 84.6353)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -4277,7 +4298,7 @@
 		(start 171.315 85.2175)
 		(end 171.2726 85.1999)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -4307,7 +4328,7 @@
 		(start 173.0983 84.4434)
 		(end 173.2162 84.5995)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -4447,7 +4468,7 @@
 		(start 171.5334 84.6353)
 		(end 171.4465 84.7978)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -4557,7 +4578,7 @@
 		(start 173.255 111.1575)
 		(end 173.2369 110.9741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -4937,7 +4958,7 @@
 		(start 171.315 111.2175)
 		(end 171.2726 111.1999)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -5257,7 +5278,7 @@
 		(start 173.2726 85.1999)
 		(end 173.255 85.1575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -5537,7 +5558,7 @@
 		(start 171.3574 85.1999)
 		(end 171.315 85.2175)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -5637,7 +5658,7 @@
 		(start 172.9797 110.4928)
 		(end 172.8372 110.3759)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -5937,7 +5958,7 @@
 		(start 171.4138 84.5995)
 		(end 171.5316 84.4434)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -5977,7 +5998,7 @@
 		(start 171.4138 110.5995)
 		(end 171.5316 110.4434)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6107,7 +6128,7 @@
 		(start 172.7875 110.2086)
 		(end 172.9538 110.3116)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6327,7 +6348,7 @@
 		(start 173.0983 110.4434)
 		(end 173.2162 110.5995)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6367,7 +6388,7 @@
 		(start 171.273 110.9627)
 		(end 171.3266 110.7746)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6467,7 +6488,7 @@
 		(start 171.5334 110.6353)
 		(end 171.4465 110.7978)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6527,7 +6548,7 @@
 		(start 173.3574 111.1999)
 		(end 173.315 111.2175)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6607,7 +6628,7 @@
 		(start 173.2162 110.5995)
 		(end 173.3034 110.7746)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6617,7 +6638,7 @@
 		(start 172.6747 110.2891)
 		(end 172.4984 110.2356)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6627,7 +6648,7 @@
 		(start 173.375 111.1575)
 		(end 173.3574 111.1999)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6767,7 +6788,7 @@
 		(start 173.2369 84.9741)
 		(end 173.1834 84.7978)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6787,7 +6808,7 @@
 		(start 173.3574 85.1999)
 		(end 173.315 85.2175)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6797,7 +6818,7 @@
 		(start 172.2172 84.102)
 		(end 172.4128 84.102)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -6967,7 +6988,7 @@
 		(start 172.315 84.2175)
 		(end 172.1316 84.2356)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -7147,7 +7168,7 @@
 		(start 172.2172 110.102)
 		(end 172.4128 110.102)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -7167,7 +7188,7 @@
 		(start 171.7928 84.3759)
 		(end 171.6503 84.4928)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -7277,7 +7298,7 @@
 		(start 171.5316 84.4434)
 		(end 171.6762 84.3116)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -7327,7 +7348,7 @@
 		(start 171.3574 111.1999)
 		(end 171.315 111.2175)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -7367,7 +7388,7 @@
 		(start 172.7875 84.2086)
 		(end 172.9538 84.3116)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -7467,7 +7488,7 @@
 		(start 172.1316 110.2356)
 		(end 171.9553 110.2891)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -7747,7 +7768,7 @@
 		(start 172.315 110.2175)
 		(end 172.1316 110.2356)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -7827,7 +7848,7 @@
 		(start 171.3931 110.9741)
 		(end 171.375 111.1575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8077,7 +8098,7 @@
 		(start 171.5316 110.4434)
 		(end 171.6762 110.3116)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8397,7 +8418,7 @@
 		(start 172.9538 84.3116)
 		(end 173.0983 84.4434)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8427,7 +8448,7 @@
 		(start 171.6503 84.4928)
 		(end 171.5334 84.6353)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8537,7 +8558,7 @@
 		(start 173.1834 110.7978)
 		(end 173.0966 110.6353)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8557,7 +8578,7 @@
 		(start 171.6503 110.4928)
 		(end 171.5334 110.6353)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8717,7 +8738,7 @@
 		(start 173.375 85.1575)
 		(end 173.3574 85.1999)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8827,7 +8848,7 @@
 		(start 173.2726 111.1999)
 		(end 173.255 111.1575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8837,7 +8858,7 @@
 		(start 171.2726 85.1999)
 		(end 171.255 85.1575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -8867,7 +8888,7 @@
 		(start 171.4465 84.7978)
 		(end 171.3931 84.9741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -9077,7 +9098,7 @@
 		(start 172.8372 84.3759)
 		(end 172.6747 84.2891)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -9197,7 +9218,7 @@
 		(start 173.3569 110.9627)
 		(end 173.375 111.1575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -9417,7 +9438,7 @@
 		(start 171.255 111.1575)
 		(end 171.273 110.9627)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -9577,7 +9598,7 @@
 		(start 173.0966 84.6353)
 		(end 172.9797 84.4928)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -9797,7 +9818,7 @@
 		(start 173.255 85.1575)
 		(end 173.2369 84.9741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -9847,7 +9868,7 @@
 		(start 173.3569 84.9627)
 		(end 173.375 85.1575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -9997,7 +10018,7 @@
 		(start 171.2726 111.1999)
 		(end 171.255 111.1575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -10097,7 +10118,7 @@
 		(start 172.8372 110.3759)
 		(end 172.6747 110.2891)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -10487,7 +10508,7 @@
 		(start 171.9553 84.2891)
 		(end 171.7928 84.3759)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -10517,7 +10538,7 @@
 		(start 172.0249 84.138)
 		(end 172.2172 84.102)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -10777,7 +10798,7 @@
 		(start 171.7928 110.3759)
 		(end 171.6503 110.4928)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -10907,7 +10928,7 @@
 		(start 171.3931 84.9741)
 		(end 171.375 85.1575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -11417,7 +11438,7 @@
 		(start 171.8425 110.2086)
 		(end 172.0249 110.138)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -11617,7 +11638,7 @@
 		(start 171.3266 84.7746)
 		(end 171.4138 84.5995)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -11747,7 +11768,7 @@
 		(start 173.2162 84.5995)
 		(end 173.3034 84.7746)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -11887,7 +11908,7 @@
 		(start 171.9553 110.2891)
 		(end 171.7928 110.3759)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -12117,7 +12138,7 @@
 		(start 171.273 84.9627)
 		(end 171.3266 84.7746)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -12287,7 +12308,7 @@
 		(start 171.255 85.1575)
 		(end 171.273 84.9627)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -12377,7 +12398,7 @@
 		(start 173.315 85.2175)
 		(end 173.2726 85.1999)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -12437,7 +12458,7 @@
 		(start 172.4984 84.2356)
 		(end 172.315 84.2175)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -12477,7 +12498,7 @@
 		(start 172.6747 84.2891)
 		(end 172.4984 84.2356)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -12557,7 +12578,7 @@
 		(start 173.3034 84.7746)
 		(end 173.3569 84.9627)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -12687,7 +12708,7 @@
 		(start 173.315 111.2175)
 		(end 173.2726 111.1999)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -12867,7 +12888,7 @@
 		(start 171.4465 110.7978)
 		(end 171.3931 110.9741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -13017,7 +13038,7 @@
 		(start 171.3266 110.7746)
 		(end 171.4138 110.5995)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -13527,7 +13548,7 @@
 		(start 172.1316 84.2356)
 		(end 171.9553 84.2891)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -13617,7 +13638,7 @@
 		(start 172.9797 84.4928)
 		(end 172.8372 84.3759)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -13687,7 +13708,7 @@
 		(start 171.8425 84.2086)
 		(end 172.0249 84.138)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -13947,7 +13968,7 @@
 		(start 171.6762 110.3116)
 		(end 171.8425 110.2086)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14257,7 +14278,7 @@
 		(start 172.6051 84.138)
 		(end 172.7875 84.2086)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14277,7 +14298,7 @@
 		(start 173.3034 110.7746)
 		(end 173.3569 110.9627)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14287,7 +14308,7 @@
 		(start 173.0966 110.6353)
 		(end 172.9797 110.4928)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14417,7 +14438,7 @@
 		(start 173.2369 110.9741)
 		(end 173.1834 110.7978)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14427,7 +14448,7 @@
 		(start 171.6762 84.3116)
 		(end 171.8425 84.2086)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14497,7 +14518,7 @@
 		(start 172.0249 110.138)
 		(end 172.2172 110.102)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14587,7 +14608,7 @@
 		(start 172.9538 110.3116)
 		(end 173.0983 110.4434)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14597,7 +14618,7 @@
 		(start 172.6051 110.138)
 		(end 172.7875 110.2086)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
@@ -14754,43 +14775,43 @@
 		(uuid "ffd61c99-98ca-4f79-aa37-44a81c8957c2")
 	)
 	(gr_line
-		(start 92.2418 58.0713)
-		(end 192.3 57.9525)
+		(start 92.2418 55.5)
+		(end 192.5 55.5)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "Eco2.User")
+		(layer "Edge.Cuts")
 		(uuid "1dbb28bf-88f9-42ce-8105-88392d40885d")
 	)
 	(gr_line
-		(start 192.3 57.9525)
-		(end 192.3 127.4525)
+		(start 192.5 55.5)
+		(end 192.5 127.5)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "Eco2.User")
+		(layer "Edge.Cuts")
 		(uuid "912a4232-3be7-480f-8a66-19912e85f21e")
 	)
 	(gr_line
-		(start 192.3 127.4525)
+		(start 192.5 127.5)
 		(end 92.3 127.4525)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "Eco2.User")
+		(layer "Edge.Cuts")
 		(uuid "cfadce4e-c846-4df7-9b3a-27a1ed1ce3d0")
 	)
 	(gr_line
 		(start 92.3 127.4525)
-		(end 92.2418 58.0713)
+		(end 92.2418 55.5)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "Eco2.User")
+		(layer "Edge.Cuts")
 		(uuid "d2975385-4e03-4798-8428-263ea8c5911a")
 	)
 	(segment
