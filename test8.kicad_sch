@@ -5646,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:PinHeader_2x05_P2.00mm_Vertical"
+		(property "Footprint" "main:PinHeader_2x05_P2.54mm_Vertical"
 			(at 231.14 80.01 0)
 			(effects
 				(font
@@ -5941,7 +5941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:PinHeader_2x05_P2.00mm_Vertical"
+		(property "Footprint" "main:PinHeader_2x05_P2.54mm_Vertical"
 			(at 43.18 73.66 0)
 			(effects
 				(font
@@ -6411,7 +6411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:PinSocket_1x03_P2.00mm_Vertical"
+		(property "Footprint" "main:PinHeader_1x03_P2.54mm_Vertical"
 			(at 204.47 40.64 0)
 			(effects
 				(font
@@ -6689,7 +6689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:PinHeader_2x05_P2.00mm_Vertical"
+		(property "Footprint" "main:PinHeader_2x05_P2.54mm_Vertical"
 			(at 43.18 128.27 0)
 			(effects
 				(font
@@ -6915,7 +6915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:PinSocket_1x03_P2.00mm_Vertical"
+		(property "Footprint" "main:PinHeader_1x03_P2.54mm_Vertical"
 			(at 168.91 55.88 0)
 			(effects
 				(font
@@ -7233,7 +7233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:PinHeader_2x05_P2.00mm_Vertical"
+		(property "Footprint" "main:PinHeader_2x05_P2.54mm_Vertical"
 			(at 231.14 120.65 0)
 			(effects
 				(font
@@ -7396,7 +7396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:PinSocket_1x03_P2.00mm_Vertical"
+		(property "Footprint" "main:PinHeader_1x03_P2.54mm_Vertical"
 			(at 187.96 40.64 0)
 			(effects
 				(font
